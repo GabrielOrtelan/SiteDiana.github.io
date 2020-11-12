@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.secNavBar {
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.containerNavBar {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.divUl {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.divUl ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liNavBar:hover {
+    text-decoration: underline #b10101;
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+
+.divLogin {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b10101;
+
+}
+
+.pLogin {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.pLogin:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    letter-spacing: 3px;
+    border: #b10101 solid;
+}
+
+.secVideo video {
+    width: 100%;
+
+}
+
+.tituloVideo {
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 70%;
+    left: 10%;
+    font-family: 'Krona One', sans-serif;
+}
+
+.tituloVideo h3 {
+    font-size: 2rem;
+}
+
+.tituloVideo p {
+    font-size: 6rem;
+}
+
+.tituloVideo span {
+    font-size: 25px;
+    margin-left: 2%;
+    color: #b10101;
+}
+
+.secHistoria {
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+}
+
+.divHistoria {
+    width: 80%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.divHistoria p {
+    font-size: 2rem;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.conteudoHistoria p {
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botaoHistoria {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.botaoHistoria p {
+    font-size: 1.4rem;
+}
+
+.simboloDianaHistoria {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+}
+
+.secHabilidades {
+    background-color: tomato;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.divHabilidades {
+    width: 80%;
+    height: 50vh;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.habilidadesTitulo {
+    width: 40%;
+    height: 50vh;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pHabilidade {
+    margin-top: 3%;
+    font-size: 2rem;
+    font-family: 'Krona One', sans-serif;
+    border-bottom: 2px solid #b10101;
+
+}
+
+.descHabilidade {
+    margin: auto 0;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.iconesHabilidades {
+    width: 10%;
+    height: 50vh;
+    background-color: blue;
+}
+
+.habilidades {
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.habilidadePassiva {
+    background-color: white;
+    width: 50%;
+    height: 8vh;
+}
+
+.habilidadeQ {
+    background-color: white;
+    width: 50%;
+    height: 8vh;
+}
+
+.habilidadeW {
+    background-color: white;
+    width: 50%;
+    height: 8vh;
+}
+
+.habilidadeE {
+    background-color: white;
+    width: 50%;
+    height: 8vh;
+}
+
+.habilidadeR {
+    background-color: white;
+    width: 50%;
+    height: 8vh;
+}
