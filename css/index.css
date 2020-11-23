@@ -109,7 +109,8 @@ html {
 .secHistoria {
     width: 100%;
     height: 50vh;
-    background-color: aquamarine;
+    background-image: url(../IMGS/2.jpg);
+    background-size: cover;
     margin-top: -5px;
     display: flex;
     justify-content: center;
@@ -118,7 +119,6 @@ html {
 .divHistoria {
     width: 80%;
     height: 100%;
-    background-color: gray;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -154,11 +154,11 @@ html {
 .simboloDianaHistoria {
     height: 40px;
     width: 40px;
-    background-color: red;
+    cursor: pointer;
+    margin-right: 40px;
 }
 
 .secHabilidades {
-    background-color: tomato;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -168,14 +168,12 @@ html {
 .divHabilidades {
     width: 80%;
     height: 50vh;
-    background-color: blueviolet;
     display: flex;
 }
 
 .habilidadesTitulo {
     width: 40%;
     height: 50vh;
-    background-color: yellow;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -191,21 +189,35 @@ html {
 
 .descHabilidade {
     margin: auto 0;
-    font-size: 1rem;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3rem;
+    text-align: left;
+
 }
+
+.descHabilidadeQ{
+    margin: auto 0;
+    font-size: 1.3rem;
+    text-align: left;
+    display: none;
+
+}
+.descHabilidadeW{
+    margin: auto 0;
+    font-size: 1.3rem;
+    text-align: left;
+    display: none;
+
+}
+
 
 .iconesHabilidades {
     width: 10%;
     height: 50vh;
-    background-color: blue;
 }
 
 .habilidades {
     width: 100%;
     height: 50vh;
-    background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,31 +225,61 @@ html {
 }
 
 .habilidadePassiva {
-    background-color: white;
     width: 50%;
     height: 8vh;
+    cursor: pointer;
 }
 
 .habilidadeQ {
-    background-color: white;
     width: 50%;
     height: 8vh;
+    cursor: pointer;
 }
 
 .habilidadeW {
-    background-color: white;
     width: 50%;
     height: 8vh;
+    cursor: pointer;
 }
 
 .habilidadeE {
-    background-color: white;
     width: 50%;
     height: 8vh;
+    cursor: pointer;
 }
 
 .habilidadeR {
-    background-color: white;
     width: 50%;
     height: 8vh;
+    cursor: pointer;
+}
+
+.habVideo {
+    width: 60%;
+}
+
+.habVideo video{
+    width: 100%;
+    height: 470px;
+    margin-top: 7px;
+}
+
+.P {
+    display: block;
+}
+
+.Q {
+    display: none;
+}
+
+.W {
+    display: none;
+}
+
+.E {
+    display: none;
+}
+
+.R {
+    display: none;
 }

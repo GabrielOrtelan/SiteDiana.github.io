@@ -72,8 +72,9 @@
                     LEIA MAIS
                 </p>
                 <div class="simboloDianaHistoria">
-                    <div class="botaoContinuar">
-                    </div>
+                    <a href="index.html">
+                        <img src="IMGS/simbolo.png" alt="" width="60px" height="50px">
+                    </a>
                 </div>
             </div>
         </div>
@@ -84,14 +85,19 @@
             <div class="iconesHabilidades">
                 <div class="habilidades">
                     <div class="habilidadePassiva">
+                        <a onclick="abrirPassiva()" id="passiva"><img src="IMGS/passiva.png" alt=""></a>
                     </div>
                     <div class="habilidadeQ">
+                        <a onclick="abrirQ()" id="habQ"><img src="IMGS/Q.png" width="60px" height="58px"></a>
                     </div>
                     <div class="habilidadeW">
+                        <a onclick="abrirW()"><img src="IMGS/W.png" width="60px" height="58px"></a>
                     </div>
                     <div class="habilidadeE">
+                        <img src="IMGS/E.png" width="60px" height="58px">
                     </div>
                     <div class="habilidadeR">
+                        <img src="IMGS/R.png" width="60px" height="58px">
                     </div>
                 </div>
             </div>
@@ -99,14 +105,64 @@
                 <p class="pHabilidade">
                     HABILIDADES
                 </p>
-                <p class="descHabilidade">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum et necessitatibus quaerat
-                    perferendis nam at odio, illo quasi beatae numquam ex magnam debitis ipsa libero velit laboriosam
-                    earum aspernatur.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati harum et necessitatibus quaerat
-                    perferendis nam at odio, illo quasi beatae numquam ex magnam debitis ipsa libero velit laboriosam
-                    earum aspernatur.
+                <p class="descHabilidade" id="descP">
+                    (PASSIVA)
+                    <br>
+                    ESPADA DE PRATA LUNAR
+                    <br><br>
+                    Cada terceiro ataque atinge os oponentes próximos, causando Dano Mágico adicional. Depois de
+                    conjurar uma habilidade, Diana recebe Velocidade de Ataque em seus próximos 3 ataques.
                 </p>
+                <p class="descHabilidadeQ" id="descQ">
+                    (Q)
+                    <br>
+                    GOLPE CRESCENTE
+                    <br><br>
+                    Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos
+                    com Plenilúnio, revelando-os por 3s se não estiverem furtivos.
+                </p>
+
+                <p class="descHabilidadeW" id="descW">
+                    (W)
+                    <br>
+                    CASCATA LÍVIDA
+                    <br><br>
+                    Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela
+                    também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe
+                    resistência adicional.
+                </p>
+                
+
+            </div>
+            <div class="habVideo">
+                <div class="P" id="habilidadeP">
+                    <video autoplay loop muted>
+                        <source src="IMGS/abilityP.webm">
+                    </video>
+                </div>
+                <div class="Q" id="habilidadeQ">
+                    <video autoplay loop muted>
+                        <source src="IMGS/abilityQ.webm">
+                    </video>
+                </div>
+                <div class="W" id="habilidadeW">
+                    <video autoplay loop muted>
+                        <source src="IMGS/abilityW.webm">
+                    </video>
+                </div>
+
+                <div class="E" id="habilidadeE">
+                    <video autoplay loop muted>
+                        <source src="IMGS/abilityE.webm">
+                    </video>
+                </div>
+
+                <div class="R" id="habilidadeR">
+                    <video autoplay loop muted>
+                        <source src="IMGS/abilityR.webm">
+                    </video>
+                </div>
+
             </div>
         </div>
 
