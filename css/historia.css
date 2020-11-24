@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+}
+
+.current {
+    color: white;
+}
+
+.secNavBar {
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.containerNavBar {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.divUl {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.divUl ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liNavBar:hover {
+    text-decoration: underline #b10101;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.divLogin {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b10101;
+}
+
+.pLogin {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.pLogin:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    letter-spacing: 3px;
+    border: #b10101 solid;
+}
+
+.secBackGround {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMGS/w2T8Zt.jpg");
+    background-size: cover;
+}

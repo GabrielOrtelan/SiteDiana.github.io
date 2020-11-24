@@ -17,15 +17,16 @@
         <div class="containerNavBar">
             <div class="divUl">
                 <ul>
+                    <li class="liNavBar"><a class="current" href="../public/index.html">INICIO</a></li>
                     <li class="liNavBar" onclick="scrollHistoria()">HISTORIA</li>
-                    <li class="liNavBar">HABILIDADES</li>
+                    <li class="liNavBar" onclick="scrollHabilidade()">HABILIDADES</li>
+                    <li class="liNavBar">SKINS</li>
                     <li class="liNavBar">GALERIA</li>
-                    <li class="liNavBar">MINHA HISTORIA</li>
                 </ul>
             </div>
             <div class="divLogin">
                 <p class="pLogin">
-                    LOGIN
+                    <a class="current" href="../public/login.html">LOGIN</a>
                 </p>
             </div>
         </div>
@@ -61,10 +62,8 @@
             </div>
             <div class="conteudoHistoria">
                 <p>
-                    A noite sempre foi o momento favorito de Diana, mesmo quando criança. Foi assim desde que ela estava
-                    velha o suficiente para saltar sobre os muros do templo Solari para ver a lua atravessar a abóbada
-                    celeste. Ela olhou sobre a cobertura densa da floresta, seus olhos violeta buscando pela lua
-                    prateada, mas vendo apenas seu brilho difuso através das nuvens grossas e galhos escuros.
+                    A noite sempre foi o momento favorito de Diana, mesmo quando criança. Foi assim desde que ela estava velha o suficiente para saltar sobre os muros do templo Solari para ver a lua atravessar a abóbada celeste. Ela olhou sobre a cobertura densa da floresta,
+                    seus olhos violeta buscando pela lua prateada, mas vendo apenas seu brilho difuso através das nuvens grossas e galhos escuros.
                 </p>
             </div>
             <div class="botaoHistoria">
@@ -72,7 +71,7 @@
                     LEIA MAIS
                 </p>
                 <div class="simboloDianaHistoria">
-                    <a href="index.html">
+                    <a href="../public/historia.html">
                         <img src="IMGS/simbolo.png" alt="" width="60px" height="50px">
                     </a>
                 </div>
@@ -80,24 +79,24 @@
         </div>
     </section>
 
-    <section class="secHabilidades">
+    <section class="secHabilidades" id="secHabilidades">
         <div class="divHabilidades">
             <div class="iconesHabilidades">
                 <div class="habilidades">
                     <div class="habilidadePassiva">
-                        <a onclick="abrirPassiva()" id="passiva"><img src="IMGS/passiva.png" alt=""></a>
+                        <a onclick="abrirPassiva()"><img src="IMGS/passiva.png" alt=""></a>
                     </div>
                     <div class="habilidadeQ">
-                        <a onclick="abrirQ()" id="habQ"><img src="IMGS/Q.png" width="60px" height="58px"></a>
+                        <a onclick="abrirQ()"><img src="IMGS/Q.png" width="60px" height="58px"></a>
                     </div>
                     <div class="habilidadeW">
                         <a onclick="abrirW()"><img src="IMGS/W.png" width="60px" height="58px"></a>
                     </div>
                     <div class="habilidadeE">
-                        <img src="IMGS/E.png" width="60px" height="58px">
+                        <a onclick="abrirE()"><img src="IMGS/E.png" width="60px" height="58px"></a>
                     </div>
                     <div class="habilidadeR">
-                        <img src="IMGS/R.png" width="60px" height="58px">
+                        <a onclick="abrirR()"><img src="IMGS/R.png" width="60px" height="58px"></a>
                     </div>
                 </div>
             </div>
@@ -107,31 +106,32 @@
                 </p>
                 <p class="descHabilidade" id="descP">
                     (PASSIVA)
-                    <br>
-                    ESPADA DE PRATA LUNAR
-                    <br><br>
-                    Cada terceiro ataque atinge os oponentes próximos, causando Dano Mágico adicional. Depois de
-                    conjurar uma habilidade, Diana recebe Velocidade de Ataque em seus próximos 3 ataques.
+                    <br> ESPADA DE PRATA LUNAR
+                    <br><br> Cada terceiro ataque atinge os oponentes próximos, causando Dano Mágico adicional. Depois de conjurar uma habilidade, Diana recebe Velocidade de Ataque em seus próximos 3 ataques.
                 </p>
                 <p class="descHabilidadeQ" id="descQ">
                     (Q)
-                    <br>
-                    GOLPE CRESCENTE
-                    <br><br>
-                    Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos
-                    com Plenilúnio, revelando-os por 3s se não estiverem furtivos.
+                    <br> GOLPE CRESCENTE
+                    <br><br> Faz um disparo de energia lunar em forma de arco, causando Dano Mágico. Afeta os inimigos atingidos com Plenilúnio, revelando-os por 3s se não estiverem furtivos.
                 </p>
 
                 <p class="descHabilidadeW" id="descW">
                     (W)
-                    <br>
-                    CASCATA LÍVIDA
-                    <br><br>
-                    Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela
-                    também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe
-                    resistência adicional.
+                    <br> CASCATA LÍVIDA
+                    <br><br> Diana cria três esferas orbitantes que detonam ao contato com inimigos, causando dano em área. Ela também ganha um escudo temporário que absorve dano. Se a terceira esfera detonar, o escudo recebe resistência adicional.
                 </p>
-                
+                <p class="descHabilidadeE" id="descE">
+                    (E)
+                    <br>ZÊNITE LUNAR
+                    <br><br>Torna-se a encarnação viva da lua vingativa, avançando contra um inimigo e causando Dano Mágico. Zênite Lunar não tem Tempo de Recarga ao avançar em um inimigo afetado por Plenilúnio. Todos os outros inimigos terão o efeito
+                    de Plenilúnio removido independentemente de terem sido o alvo de Zênite Lunar.
+                </p>
+                <p class="descHabilidadeR" id="descR">
+                    (R)
+                    <br>COLAPSO MINGUANTE
+                    <br><br> Diana revela e atrai todos os inimigos próximos e reduz a velocidade deles. Se Diana atrair um ou mais Campeões inimigos, o Plenilúnio cai sobre ela depois de um breve intervalo, causando Dano Mágico em uma área ao seu redor,
+                    aumentado a cada alvo atraído além do primeiro.
+                </p>
 
             </div>
             <div class="habVideo">
