@@ -106,7 +106,7 @@
 
 .secHistoria {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     background-image: url(../IMGS/2.jpg);
     background-size: cover;
     margin-top: -5px;
@@ -156,7 +156,7 @@
 
 .secHabilidades {
     width: 100%;
-    height: 55vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     background: url("../IMGS/dz.jpg");
@@ -164,6 +164,7 @@
     background-position: center;
     color: white;
     font-weight: bold;
+    align-items: center;
 }
 
 .divHabilidades {
@@ -175,15 +176,14 @@
 
 .habilidadesTitulo {
     width: 40%;
-    height: 50vh;
+    height: 53vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .pHabilidade {
-    margin-top: 20%;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Krona One', sans-serif;
     border-bottom: 2px solid purple;
 }
@@ -192,6 +192,7 @@
     margin: auto 0;
     font-size: 1.3rem;
     text-align: left;
+    margin-top: 40%;
 }
 
 .descHabilidadeQ {
@@ -199,6 +200,7 @@
     font-size: 1.3rem;
     text-align: left;
     display: none;
+    margin-top: 40%;
 }
 
 .descHabilidadeW {
@@ -206,6 +208,7 @@
     font-size: 1.3rem;
     text-align: left;
     display: none;
+    margin-top: 40%;
 }
 
 .descHabilidadeE {
@@ -213,6 +216,7 @@
     font-size: 1.3rem;
     text-align: left;
     display: none;
+    margin-top: 40%;
 }
 
 .descHabilidadeR {
@@ -220,6 +224,7 @@
     font-size: 1.3rem;
     text-align: left;
     display: none;
+    margin-top: 40%;
 }
 
 .iconesHabilidades {
@@ -230,11 +235,11 @@
 .habilidades {
     margin-top: 15px;
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .habilidadePassiva {
@@ -269,12 +274,12 @@
 
 .habVideo {
     width: 60%;
+    margin-top: 15%;
 }
 
 .habVideo video {
     width: 100%;
     height: 490px;
-    margin-top: 5%;
 }
 
 .P {
