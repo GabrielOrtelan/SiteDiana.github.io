@@ -6,7 +6,7 @@
 }
 
 .current {
-    color: white;
+    color: violet;
 }
 
 .secNavBar {
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    color: white;
+    color: violet;
     font-family: 'Krona One', sans-serif;
     z-index: 10;
     cursor: pointer;
@@ -46,7 +46,7 @@
 }
 
 .liNavBar:hover {
-    text-decoration: underline #b10101;
+    text-decoration: underline violet;
     transform: scale(1.1);
     transition: 1s;
 }
@@ -58,11 +58,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #b10101;
+    color: violet;
 }
 
 .pLogin {
-    border: 2px solid white;
+    border: 2px solid violet;
     border-radius: 10px;
     padding: 5px 5px;
     cursor: pointer;
@@ -73,12 +73,12 @@
     transform: scale(1.1);
     transition: 1s;
     letter-spacing: 3px;
-    border: #b10101 solid;
+    border: violet solid;
 }
 
 .secBackGround {
     width: 100%;
     height: 100vh;
-    background-image: url("../IMGS/w2T8Zt.jpg");
+    background-image: url("../IMGS/kfkfkf.png");
     background-size: cover;
 }
