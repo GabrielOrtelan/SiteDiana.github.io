@@ -62,18 +62,18 @@
 }
 
 .pLogin {
-    border: 2px solid violet;
+    border: 2px solid white;
     border-radius: 10px;
     padding: 5px 5px;
     cursor: pointer;
     transition: 1s;
+    border: violet;
 }
 
 .pLogin:hover {
     transform: scale(1.1);
     transition: 1s;
     letter-spacing: 3px;
-    border: violet solid;
 }
 
 .secBackGround {
