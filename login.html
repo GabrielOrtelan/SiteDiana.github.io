@@ -29,22 +29,14 @@
     </section>
     <!--Fim da NavBar-->
     <!-- Começo do Login -->
-    <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
-        <div class="login">
-            <div class="loginBg">
-                <div class="loginTexto">
-                    <h1>Logue com sua conta RIOT para<br>receber uma skin aleatória</h1>
-                    <h2>LOGIN</h2>
-                    <p>Nome de Usuario</p>
-                    <input type="text" id="email" class="loginIntens" placeholder="Nome de Usuario">
-                    <p>Senha</p>
-                    <input type="password" id="inSenha" class="loginIntens" placeholder="Senha">
-                    <button class="loginButton" onclick="entrar1()" id="entrar">Entrar</button><br>
-                    <p class="cadastro"> <a href="https://signup.br.leagueoflegends.com/pt/signup/index#/">Cadastro</a></p>
 
-                </div>
-            </div>
-        </div>
+    <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+        Nome de Usuario:
+        <input type="text" class="input-padrao" name="login">
+        <br> Senha:
+        <input type="password" class="input-padrao" name="senha">
+        <br>
+        <button id="btn_entrar" class="btn" type="submit">Entrar</button>
     </form>
     <!-- Final do Login -->
 </body>
