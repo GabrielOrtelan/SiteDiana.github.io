@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+    cursor: url('../IMGS/LOL_cursor2.png'), auto;
+}
+
+.current {
+    color: white;
+}
+
+.current:hover {
+    text-decoration: underline #321f3d;
+}
+
+.secNavBar {
+    background-color: transparent;
+    width: 100%;
+    height: 10vh;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    z-index: 10;
+    cursor: url('https://media.discordapp.net/attachments/760291552210845698/781670483212501002/LOL_cursor_download.png'), auto;
+}
+
+.containerNavBar {
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+}
+
+.divUl {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.divUl ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liNavBar:hover {
+    text-decoration: underline #321f3d;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.divLogin {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#321f3d;
+}
+
+.pLogin {
+    padding: 5px 5px;
+    cursor: url('https://media.discordapp.net/attachments/760291552210845698/781670483212501002/LOL_cursor_download.png'), auto;
+    transition: 1s;
+}
+
+.pLogin:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    letter-spacing: 3px;
+}
+
+.secBackGround {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../IMGS/skinback.jpg');
+
+}
+
+.secSkins{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.skin{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skin1{
+    background-image: url('../IMGS/Diana_0.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin2{
+    background-image: url('../IMGS/Diana_1.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin3{
+    background-image: url('../IMGS/Diana_2.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin4{
+    background-image: url('../IMGS/Diana_3.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin5{
+    background-image: url('../IMGS/Diana_11.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin6{
+    background-image: url('../IMGS/Diana_12.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.skin7{
+    background-image: url('../IMGS/Diana_18.jpg');
+    background-size: cover;
+    width: 79%;
+    height: 78.1vh;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.iconesSkin{
+    width: 150px;
+    height: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.skinIcone{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+   
+    
+}
+
+.skinIcone img{
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+

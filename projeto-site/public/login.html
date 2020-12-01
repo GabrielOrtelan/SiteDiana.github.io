@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/accusoft?style=brands">
+    <title>Login</title>
+</head>
+
+<body>
+    <!--Começo da NavBar-->
+    <section class="secNavBar">
+        <div class="containerNavBar">
+            <div class="divUl">
+                <ul>
+                    <li class="liNavBar"><a class=".current" href="../public/index.html">PAGINA INICIAL</a></li>
+                </ul>
+            </div>
+            <!-- <div class="divLogin">
+                <p class="pLogin">
+                    LOGIN
+                </p>
+            </div> -->
+        </div>
+    </section>
+    <!--Fim da NavBar-->
+    <!-- Começo do Login -->
+    <section class="secLogin">
+        <div class="divLogin">
+            <div class="textoLogin">
+
+                <p>Logar com conta RIOT</p>
+
+            </div>
+            <form id="form_cadastro" method="post" onsubmit="return cadastrar()">
+                Nome de Usuario
+                <br>
+                <input type="text" class="input-padrao" name="login">
+                <br><br> Senha
+                <br>
+                <input type="password" class="input-padrao" name="senha">
+                <br><br>
+                <button id="btn_entrar" class="btn" type="submit">Entrar</button>
+
+                <button class="btnCadastrar" id="btnCadastrar" onclick="cadastration()">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+    <!-- Final do Login -->
+</body>
+
+</html>
+
+<!-- Início do JS -->
+<script>
+    function cadastrar() {
+        // aguardar();
+        var formulario = new URLSearchParams(new FormData(form_cadastro));
+        fetch("/usuarios/cadastrar", {
+            method: "POST",
+            body: formulario
+        }).then(function(response) {
+
+            if (response.ok) {
+
+                window.location.href = 'sorteio.html';
+
+            } else {
+
+                console.log('Erro de cadastro!');
+                response.text().then(function(resposta) {
+                    div_erro.innerHTML = resposta;
+                });
+                // finalizar_aguardar();
+            }
+        });
+
+        return false;
+    }
+
+    function cadastration() {
+        window.location.href = 'https://signup.br.leagueoflegends.com/pt/signup/index';
+    }
+</script>
+<!-- Início do JS -->
